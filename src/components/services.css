@@ -1,0 +1,102 @@
+.main {
+  background-image: url("https://www.naxa.com.np/5f2e7ab4fc673af02b45eed51bf5cb5e.jpg");
+  min-height: 820px;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: 100% 0 !important;
+  background-color: #fff !important;
+}
+
+.items {
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  color: gray;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.list-item:hover {
+  background-color: #ffdc1c;
+  cursor: pointer
+}
+.banner-caption {
+  top: 30px !important;
+  -webkit-box-align: center;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.caption-content {
+  max-width: 80%;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 400;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+  background-color: #eaf0f6;
+  color: #2d3e50;
+  font-family: "Avenir";
+  font-size: 22px;
+  font-weight: bold;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.image {
+  width: 200%;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+}
+.desc {
+  color: gray;
+  padding-left: 200px;
+  align-items: flex-end;
+}
+
+.title {
+  font-size: 2.125rem;
+  color: #333132;
+  font-weight: 700;
+  text-align: left;
+}
+
+.para-first {
+  margin-top: 20px;
+  text-align: left;
+  display: block;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #333132;
+  font-weight: 700;
+}
+
+.para-second {
+  background-color: #e9ebff;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 30px;
+  text-align: left;
+  margin-top: 20px;
+  color: #7c7c7c;
+}
